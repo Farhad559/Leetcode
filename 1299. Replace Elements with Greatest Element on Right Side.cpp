@@ -13,7 +13,7 @@ public:
         return res;
     }
 };
-// Optimized solution in O(n)
+// Complexity almost O(n^2) but simple implementation
 class Solution {
 public:
     vector<int> replaceElements(vector<int>& arr) {
